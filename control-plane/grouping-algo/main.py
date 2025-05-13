@@ -15,4 +15,5 @@ while True:
     run_cmd("kubectl top nodes")
     run_cmd("kubectl top pods --all-namespaces")
     run_cmd("kubectl get crd")
+    run_cmd("kubectl get nodes -l node-role.kubernetes.io/hub="" -o name")
     time.sleep(10)
